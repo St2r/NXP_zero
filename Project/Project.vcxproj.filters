@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{58f0b626-2f9f-44bd-aade-9b7d91df58ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Startup">
+      <UniqueIdentifier>{0cd00fdf-7bab-41bf-8ad0-a86587e76a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User">
+      <UniqueIdentifier>{9401f6b3-0616-4372-b947-34b0773b1ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Car">
+      <UniqueIdentifier>{a9a6f9c5-aab8-4407-9923-19775e788121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fsl">
+      <UniqueIdentifier>{55287737-a5b0-49ca-9dfc-9431037c6dc2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Drive\common.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Drive\MK60_ADC.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Drive\MK60_CMT.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Drive\MK60_DMA.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Drive\MK60_FLASH.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Drive\MK60_FTM.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Drive\MK60_GPIO.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Drive\MK60_GPIO_Cfg.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Drive\MK60_IIC.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Drive\MK60_LPTMR.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Drive\MK60_PIT.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Drive\MK60_PLL.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Drive\MK60_SPI.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Drive\MK60_SYSTICK.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Drive\MK60_UART.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Drive\MK60_WDOG.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\ANO_DT.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\ICM20602_SOFTSPI.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\include.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_9AX.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_12864.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_ADC.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_CAMERA.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_CCD.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_FLASH.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_ICM20602.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_KEY.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_LED.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_LPTMR.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_MOTOR.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_MPU6050.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_MT9V034.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_OV7725.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_PIT.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_SD5.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_SGP18T.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_SYSTICK.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_UART.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_Ultrasonic.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_VL53.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\LQ_WDOG.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\User\picture.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Project_Setting\Libs\MK60N512VMD100.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Project_Setting\Startup\arm_common_tables.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Project_Setting\Startup\arm_const_structs.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Project_Setting\Startup\arm_math.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Project_Setting\Startup\cmsis_armcc.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Project_Setting\Startup\cmsis_armcc_V6.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Project_Setting\Startup\cmsis_gcc.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Project_Setting\Startup\core_cm0.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Project_Setting\Startup\core_cm0plus.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Project_Setting\Startup\core_cm3.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Project_Setting\Startup\core_cm4.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Project_Setting\Startup\core_cm7.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Project_Setting\Startup\core_cmFunc.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Project_Setting\Startup\core_cmInstr.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Project_Setting\Startup\core_cmSimd.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Project_Setting\Startup\core_sc000.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Project_Setting\Startup\core_sc300.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Project_Setting\Startup\fsl_device_registers.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Project_Setting\Startup\system_MK60D10.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Car\Control.h">
+      <Filter>Car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Car\ElectromagneticProcess.h">
+      <Filter>Car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Car\ImageProcess.h">
+      <Filter>Car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Car\PID.h">
+      <Filter>Car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Car\Scheduler.h">
+      <Filter>Car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Car\status.h">
+      <Filter>Car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Car\Uart_DMA.h">
+      <Filter>Car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\fsl\fsl_clock.h">
+      <Filter>Fsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\fsl\fsl_common.h">
+      <Filter>Fsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\fsl\fsl_dmamux.h">
+      <Filter>Fsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\fsl\fsl_edma.h">
+      <Filter>Fsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\fsl\fsl_uart.h">
+      <Filter>Fsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\fsl\fsl_uart_edma.h">
+      <Filter>Fsl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Drive\MK60_ADC.c">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drive\MK60_CMT.c">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drive\MK60_DMA.c">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drive\MK60_FLASH.c">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drive\MK60_FTM.c">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drive\MK60_GPIO.c">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drive\MK60_IIC.c">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drive\MK60_LPTMR.c">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drive\MK60_PIT.c">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drive\MK60_PLL.c">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drive\MK60_SPI.c">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drive\MK60_SYSTICK.c">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drive\MK60_UART.c">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drive\MK60_WDOG.c">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\ANO_DT.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\ICM20602_SOFTSPI.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\IRQ_Handler.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_9AX.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_12864.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_ADC.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_CAMERA.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_CCD.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_FLASH.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_ICM20602.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_KEY.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_LED.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_LPTMR.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_MOTOR.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_MPU6050.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_MT9V034.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_OV7725.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_PIT.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_SD5.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_SGP18T.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_SYSTICK.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_UART.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_Ultrasonic.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_VL53.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\LQ_WDOG.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\User\main.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Project_Setting\Startup\start.c">
+      <Filter>Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Project_Setting\Startup\system_MK60D10.c">
+      <Filter>Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Car\Control.c">
+      <Filter>Car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Car\ElectromagneticProcess.c">
+      <Filter>Car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Car\ImageProcess.c">
+      <Filter>Car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Car\PID.c">
+      <Filter>Car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Car\Scheduler.c">
+      <Filter>Car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Car\status.c">
+      <Filter>Car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Car\Uart_DMA.c">
+      <Filter>Car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fsl\fsl_clock.c">
+      <Filter>Fsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fsl\fsl_common.c">
+      <Filter>Fsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fsl\fsl_dmamux.c">
+      <Filter>Fsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fsl\fsl_edma.c">
+      <Filter>Fsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fsl\fsl_uart.c">
+      <Filter>Fsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fsl\fsl_uart_edma.c">
+      <Filter>Fsl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\Project_Setting\Startup\startup_MK60D10.s">
+      <Filter>Startup</Filter>
+    </None>
+  </ItemGroup>
+</Project>

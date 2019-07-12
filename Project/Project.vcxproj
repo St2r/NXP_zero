@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{C9FA26D9-F533-425A-A294-9B79F7F143EB}</ProjectGuid>
+    <RootNamespace>Project</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(PRO_DIR)..\src\Car;$(PRO_DIR)..\src\Drive;$(PRO_DIR)..\src\User;$(PRO_DIR)..\src\Project_Setting\Startup;$(PRO_DIR)..\src\Project_Setting\Libs;$(PRO_DIR)..\src\fsl;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>__CC_ARM;__ICC_ARM;MK60D10;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Car\Control.h" />
+    <ClInclude Include="..\src\Car\ElectromagneticProcess.h" />
+    <ClInclude Include="..\src\Car\ImageProcess.h" />
+    <ClInclude Include="..\src\Car\PID.h" />
+    <ClInclude Include="..\src\Car\Scheduler.h" />
+    <ClInclude Include="..\src\Car\status.h" />
+    <ClInclude Include="..\src\Car\Uart_DMA.h" />
+    <ClInclude Include="..\src\Drive\common.h" />
+    <ClInclude Include="..\src\Drive\MK60_ADC.h" />
+    <ClInclude Include="..\src\Drive\MK60_CMT.h" />
+    <ClInclude Include="..\src\Drive\MK60_DMA.h" />
+    <ClInclude Include="..\src\Drive\MK60_FLASH.h" />
+    <ClInclude Include="..\src\Drive\MK60_FTM.h" />
+    <ClInclude Include="..\src\Drive\MK60_GPIO.h" />
+    <ClInclude Include="..\src\Drive\MK60_GPIO_Cfg.h" />
+    <ClInclude Include="..\src\Drive\MK60_IIC.h" />
+    <ClInclude Include="..\src\Drive\MK60_LPTMR.h" />
+    <ClInclude Include="..\src\Drive\MK60_PIT.h" />
+    <ClInclude Include="..\src\Drive\MK60_PLL.h" />
+    <ClInclude Include="..\src\Drive\MK60_SPI.h" />
+    <ClInclude Include="..\src\Drive\MK60_SYSTICK.h" />
+    <ClInclude Include="..\src\Drive\MK60_UART.h" />
+    <ClInclude Include="..\src\Drive\MK60_WDOG.h" />
+    <ClInclude Include="..\src\fsl\fsl_clock.h" />
+    <ClInclude Include="..\src\fsl\fsl_common.h" />
+    <ClInclude Include="..\src\fsl\fsl_dmamux.h" />
+    <ClInclude Include="..\src\fsl\fsl_edma.h" />
+    <ClInclude Include="..\src\fsl\fsl_uart.h" />
+    <ClInclude Include="..\src\fsl\fsl_uart_edma.h" />
+    <ClInclude Include="..\src\Project_Setting\Libs\MK60N512VMD100.h" />
+    <ClInclude Include="..\src\Project_Setting\Startup\arm_common_tables.h" />
+    <ClInclude Include="..\src\Project_Setting\Startup\arm_const_structs.h" />
+    <ClInclude Include="..\src\Project_Setting\Startup\arm_math.h" />
+    <ClInclude Include="..\src\Project_Setting\Startup\cmsis_armcc.h" />
+    <ClInclude Include="..\src\Project_Setting\Startup\cmsis_armcc_V6.h" />
+    <ClInclude Include="..\src\Project_Setting\Startup\cmsis_gcc.h" />
+    <ClInclude Include="..\src\Project_Setting\Startup\core_cm0.h" />
+    <ClInclude Include="..\src\Project_Setting\Startup\core_cm0plus.h" />
+    <ClInclude Include="..\src\Project_Setting\Startup\core_cm3.h" />
+    <ClInclude Include="..\src\Project_Setting\Startup\core_cm4.h" />
+    <ClInclude Include="..\src\Project_Setting\Startup\core_cm7.h" />
+    <ClInclude Include="..\src\Project_Setting\Startup\core_cmFunc.h" />
+    <ClInclude Include="..\src\Project_Setting\Startup\core_cmInstr.h" />
+    <ClInclude Include="..\src\Project_Setting\Startup\core_cmSimd.h" />
+    <ClInclude Include="..\src\Project_Setting\Startup\core_sc000.h" />
+    <ClInclude Include="..\src\Project_Setting\Startup\core_sc300.h" />
+    <ClInclude Include="..\src\Project_Setting\Startup\fsl_device_registers.h" />
+    <ClInclude Include="..\src\Project_Setting\Startup\system_MK60D10.h" />
+    <ClInclude Include="..\src\User\ANO_DT.h" />
+    <ClInclude Include="..\src\User\ICM20602_SOFTSPI.h" />
+    <ClInclude Include="..\src\User\include.h" />
+    <ClInclude Include="..\src\User\LQ_12864.h" />
+    <ClInclude Include="..\src\User\LQ_9AX.h" />
+    <ClInclude Include="..\src\User\LQ_ADC.h" />
+    <ClInclude Include="..\src\User\LQ_CAMERA.h" />
+    <ClInclude Include="..\src\User\LQ_CCD.h" />
+    <ClInclude Include="..\src\User\LQ_FLASH.h" />
+    <ClInclude Include="..\src\User\LQ_ICM20602.h" />
+    <ClInclude Include="..\src\User\LQ_KEY.h" />
+    <ClInclude Include="..\src\User\LQ_LED.h" />
+    <ClInclude Include="..\src\User\LQ_LPTMR.h" />
+    <ClInclude Include="..\src\User\LQ_MOTOR.h" />
+    <ClInclude Include="..\src\User\LQ_MPU6050.h" />
+    <ClInclude Include="..\src\User\LQ_MT9V034.h" />
+    <ClInclude Include="..\src\User\LQ_OV7725.h" />
+    <ClInclude Include="..\src\User\LQ_PIT.h" />
+    <ClInclude Include="..\src\User\LQ_SD5.h" />
+    <ClInclude Include="..\src\User\LQ_SGP18T.h" />
+    <ClInclude Include="..\src\User\LQ_SYSTICK.h" />
+    <ClInclude Include="..\src\User\LQ_UART.h" />
+    <ClInclude Include="..\src\User\LQ_Ultrasonic.h" />
+    <ClInclude Include="..\src\User\LQ_VL53.h" />
+    <ClInclude Include="..\src\User\LQ_WDOG.h" />
+    <ClInclude Include="..\src\User\picture.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Car\Control.c" />
+    <ClCompile Include="..\src\Car\ElectromagneticProcess.c" />
+    <ClCompile Include="..\src\Car\ImageProcess.c" />
+    <ClCompile Include="..\src\Car\PID.c" />
+    <ClCompile Include="..\src\Car\Scheduler.c" />
+    <ClCompile Include="..\src\Car\status.c" />
+    <ClCompile Include="..\src\Car\Uart_DMA.c" />
+    <ClCompile Include="..\src\Drive\MK60_ADC.c" />
+    <ClCompile Include="..\src\Drive\MK60_CMT.c" />
+    <ClCompile Include="..\src\Drive\MK60_DMA.c" />
+    <ClCompile Include="..\src\Drive\MK60_FLASH.c" />
+    <ClCompile Include="..\src\Drive\MK60_FTM.c" />
+    <ClCompile Include="..\src\Drive\MK60_GPIO.c" />
+    <ClCompile Include="..\src\Drive\MK60_IIC.c" />
+    <ClCompile Include="..\src\Drive\MK60_LPTMR.c" />
+    <ClCompile Include="..\src\Drive\MK60_PIT.c" />
+    <ClCompile Include="..\src\Drive\MK60_PLL.c" />
+    <ClCompile Include="..\src\Drive\MK60_SPI.c" />
+    <ClCompile Include="..\src\Drive\MK60_SYSTICK.c" />
+    <ClCompile Include="..\src\Drive\MK60_UART.c" />
+    <ClCompile Include="..\src\Drive\MK60_WDOG.c" />
+    <ClCompile Include="..\src\fsl\fsl_clock.c" />
+    <ClCompile Include="..\src\fsl\fsl_common.c" />
+    <ClCompile Include="..\src\fsl\fsl_dmamux.c" />
+    <ClCompile Include="..\src\fsl\fsl_edma.c" />
+    <ClCompile Include="..\src\fsl\fsl_uart.c" />
+    <ClCompile Include="..\src\fsl\fsl_uart_edma.c" />
+    <ClCompile Include="..\src\Project_Setting\Startup\start.c" />
+    <ClCompile Include="..\src\Project_Setting\Startup\system_MK60D10.c" />
+    <ClCompile Include="..\src\User\ANO_DT.c" />
+    <ClCompile Include="..\src\User\ICM20602_SOFTSPI.c" />
+    <ClCompile Include="..\src\User\IRQ_Handler.c" />
+    <ClCompile Include="..\src\User\LQ_12864.c" />
+    <ClCompile Include="..\src\User\LQ_9AX.c" />
+    <ClCompile Include="..\src\User\LQ_ADC.c" />
+    <ClCompile Include="..\src\User\LQ_CAMERA.c" />
+    <ClCompile Include="..\src\User\LQ_CCD.c" />
+    <ClCompile Include="..\src\User\LQ_FLASH.c" />
+    <ClCompile Include="..\src\User\LQ_ICM20602.c" />
+    <ClCompile Include="..\src\User\LQ_KEY.c" />
+    <ClCompile Include="..\src\User\LQ_LED.c" />
+    <ClCompile Include="..\src\User\LQ_LPTMR.c" />
+    <ClCompile Include="..\src\User\LQ_MOTOR.c" />
+    <ClCompile Include="..\src\User\LQ_MPU6050.c" />
+    <ClCompile Include="..\src\User\LQ_MT9V034.c" />
+    <ClCompile Include="..\src\User\LQ_OV7725.c" />
+    <ClCompile Include="..\src\User\LQ_PIT.c" />
+    <ClCompile Include="..\src\User\LQ_SD5.c" />
+    <ClCompile Include="..\src\User\LQ_SGP18T.c" />
+    <ClCompile Include="..\src\User\LQ_SYSTICK.c" />
+    <ClCompile Include="..\src\User\LQ_UART.c" />
+    <ClCompile Include="..\src\User\LQ_Ultrasonic.c" />
+    <ClCompile Include="..\src\User\LQ_VL53.c" />
+    <ClCompile Include="..\src\User\LQ_WDOG.c" />
+    <ClCompile Include="..\src\User\main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\Project_Setting\Startup\startup_MK60D10.s" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

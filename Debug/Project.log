@@ -1,0 +1,773 @@
+﻿  Control.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  ElectromagneticProcess.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  ImageProcess.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  PID.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  Scheduler.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  status.c
+  Uart_DMA.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  MK60_ADC.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  MK60_CMT.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  MK60_DMA.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  MK60_FLASH.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  MK60_FTM.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  MK60_GPIO.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  MK60_IIC.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  MK60_LPTMR.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  MK60_PIT.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  MK60_PLL.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  MK60_SPI.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\drive\mk60_spi.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  MK60_SYSTICK.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  MK60_UART.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  正在生成代码...
+  正在编译...
+  MK60_WDOG.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  fsl_clock.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2146: 语法错误: 缺少“)”(在标识符“interrupt”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2061: 语法错误: 标识符“interrupt”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2059: 语法错误:“;”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(213): error C2449: 在文件范围内找到“{”(是否缺少函数头?)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(229): error C2059: 语法错误:“}”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(274): warning C4013: “__get_PRIMASK”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(276): warning C4013: “__disable_irq”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(297): warning C4013: “__set_PRIMASK”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2146: 语法错误: 缺少“)”(在标识符“irq”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2061: 语法错误: 标识符“irq”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2059: 语法错误:“;”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2059: 语法错误:“,”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(448): error C2065: “MCG_C2_EREFS0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(448): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(462): error C2065: “MCG_C2_EREFS0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(463): error C2065: “MCG_C2_HGO0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(463): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(470): error C2065: “OSC_CR_SC2P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(470): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(471): error C2065: “OSC_CR_SC4P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(471): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(472): error C2065: “OSC_CR_SC8P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(472): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(474): error C2065: “OSC_CR_SC16P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(474): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(479): error C2065: “OSC_CR_ERCLKEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(479): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(481): error C2065: “OSC_CR_EREFSTEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(481): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(608): error C2065: “MCG_C1_IRCLKEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(608): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(610): error C2065: “MCG_C1_IREFSTEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(610): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(615): error C2065: “MCG_C5_PLLCLKEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(615): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(622): error C2065: “MCG_C5_PLLSTEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(622): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(692): error C2065: “SIM_BASE”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(703): error C2065: “SIM_BASE”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): error C2223: “->SOPT1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): error C2065: “SIM_SOPT1_OSC32KSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): warning C4013: “SIM_SOPT1_OSC32KSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): error C2065: “SIM_SOPT2_SDHCSRC_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): warning C4013: “SIM_SOPT2_SDHCSRC”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): error C2065: “SIM_SOPT2_TIMESRC_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): warning C4013: “SIM_SOPT2_TIMESRC”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): error C2065: “SIM_SOPT2_RMIISRC_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): warning C4013: “SIM_SOPT2_RMIISRC”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): error C2065: “SIM_SOPT2_TRACECLKSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): warning C4013: “SIM_SOPT2_TRACECLKSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): error C2065: “SIM_SOPT2_PLLFLLSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): warning C4013: “SIM_SOPT2_PLLFLLSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): error C2065: “SIM_SOPT2_CLKOUTSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): warning C4013: “SIM_SOPT2_CLKOUTSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): error C2065: “SIM_SOPT2_RTCCLKOUTSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): warning C4013: “SIM_SOPT2_RTCCLKOUTSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2146: 语法错误: 缺少“)”(在标识符“src”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2061: 语法错误: 标识符“src”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2059: 语法错误:“;”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2059: 语法错误:“,”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): error C2223: “->CLKDIV1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): warning C4013: “SIM_CLKDIV1_OUTDIV1”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): warning C4013: “SIM_CLKDIV1_OUTDIV2”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): warning C4013: “SIM_CLKDIV1_OUTDIV3”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(820): warning C4013: “SIM_CLKDIV1_OUTDIV4”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(913): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(913): error C2223: “->CLKDIV1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(989): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(989): error C2223: “->C2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(989): error C2065: “MCG_C2_LP_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(993): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(993): error C2223: “->C2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(993): error C2065: “MCG_C2_LP_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): error C2223: “->C1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): error C2065: “MCG_C1_FRDIV_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): warning C4013: “MCG_C1_FRDIV”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2223: “->C5”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2065: “MCG_C5_PLLCLKEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2065: “MCG_C5_PLLSTEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2371: “oscer_config_t”: 重定义；不同的基类型
+  c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(488): note: 参见“oscer_config_t”的声明
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2143: 语法错误: 缺少“;”(在“const”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2371: “uint8_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\stdint.h(21): note: 参见“uint8_t”的声明
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2146: 语法错误: 缺少“;”(在标识符“capLoad”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1214): error C2054: 在“capLoad”之后应输入“(”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.c(213): warning C4013: “__NOP”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.c(228): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.c(228): error C2223: “->C7”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.c(228): error C2065: “MCG_C7_OSCSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.c(228): error C2065: “MCG_C7_OSCSEL_SHIFT”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.c(262): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.c(262): error C2223: “->C1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.c(262): fatal error C1003: 错误计数超过 100；正在停止编译
+  fsl_common.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(448): error C2065: “MCG_C2_EREFS0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(448): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(462): error C2065: “MCG_C2_EREFS0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(463): error C2065: “MCG_C2_HGO0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(463): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(470): error C2065: “OSC_CR_SC2P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(470): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(471): error C2065: “OSC_CR_SC4P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(471): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(472): error C2065: “OSC_CR_SC8P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(472): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(474): error C2065: “OSC_CR_SC16P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(474): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(479): error C2065: “OSC_CR_ERCLKEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(479): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(481): error C2065: “OSC_CR_EREFSTEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(481): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(608): error C2065: “MCG_C1_IRCLKEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(608): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(610): error C2065: “MCG_C1_IREFSTEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(610): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(615): error C2065: “MCG_C5_PLLCLKEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(615): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(622): error C2065: “MCG_C5_PLLSTEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(622): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(692): error C2065: “SIM_BASE”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(703): error C2065: “SIM_BASE”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): error C2223: “->SOPT1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): error C2065: “SIM_SOPT1_OSC32KSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): warning C4013: “SIM_SOPT1_OSC32KSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): error C2065: “SIM_SOPT2_SDHCSRC_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): warning C4013: “SIM_SOPT2_SDHCSRC”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): error C2065: “SIM_SOPT2_TIMESRC_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): warning C4013: “SIM_SOPT2_TIMESRC”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): error C2065: “SIM_SOPT2_RMIISRC_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): warning C4013: “SIM_SOPT2_RMIISRC”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): error C2065: “SIM_SOPT2_TRACECLKSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): warning C4013: “SIM_SOPT2_TRACECLKSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): error C2065: “SIM_SOPT2_PLLFLLSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): warning C4013: “SIM_SOPT2_PLLFLLSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): error C2065: “SIM_SOPT2_CLKOUTSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): warning C4013: “SIM_SOPT2_CLKOUTSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): error C2065: “SIM_SOPT2_RTCCLKOUTSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): warning C4013: “SIM_SOPT2_RTCCLKOUTSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2146: 语法错误: 缺少“)”(在标识符“src”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2061: 语法错误: 标识符“src”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2059: 语法错误:“;”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2059: 语法错误:“,”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): error C2223: “->CLKDIV1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): warning C4013: “SIM_CLKDIV1_OUTDIV1”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): warning C4013: “SIM_CLKDIV1_OUTDIV2”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): warning C4013: “SIM_CLKDIV1_OUTDIV3”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(820): warning C4013: “SIM_CLKDIV1_OUTDIV4”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(913): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(913): error C2223: “->CLKDIV1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(989): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(989): error C2223: “->C2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(989): error C2065: “MCG_C2_LP_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(993): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(993): error C2223: “->C2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(993): error C2065: “MCG_C2_LP_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): error C2223: “->C1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): error C2065: “MCG_C1_FRDIV_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): warning C4013: “MCG_C1_FRDIV”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2223: “->C5”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2065: “MCG_C5_PLLCLKEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2065: “MCG_C5_PLLSTEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2371: “oscer_config_t”: 重定义；不同的基类型
+  c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(488): note: 参见“oscer_config_t”的声明
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2143: 语法错误: 缺少“;”(在“const”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2371: “uint8_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\stdint.h(21): note: 参见“uint8_t”的声明
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2146: 语法错误: 缺少“;”(在标识符“capLoad”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1214): error C2054: 在“capLoad”之后应输入“(”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2146: 语法错误: 缺少“)”(在标识符“interrupt”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2061: 语法错误: 标识符“interrupt”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2059: 语法错误:“;”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(213): error C2449: 在文件范围内找到“{”(是否缺少函数头?)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(229): error C2059: 语法错误:“}”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(274): warning C4013: “__get_PRIMASK”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(276): warning C4013: “__disable_irq”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(297): warning C4013: “__set_PRIMASK”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2146: 语法错误: 缺少“)”(在标识符“irq”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2061: 语法错误: 标识符“irq”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2059: 语法错误:“;”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2059: 语法错误:“,”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.c(32): fatal error C1083: 无法打开包括文件: “fsl_debug_console.h”: No such file or directory
+  fsl_dmamux.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(448): error C2065: “MCG_C2_EREFS0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(448): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(462): error C2065: “MCG_C2_EREFS0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(463): error C2065: “MCG_C2_HGO0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(463): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(470): error C2065: “OSC_CR_SC2P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(470): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(471): error C2065: “OSC_CR_SC4P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(471): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(472): error C2065: “OSC_CR_SC8P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(472): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(474): error C2065: “OSC_CR_SC16P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(474): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(479): error C2065: “OSC_CR_ERCLKEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(479): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(481): error C2065: “OSC_CR_EREFSTEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(481): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(608): error C2065: “MCG_C1_IRCLKEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(608): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(610): error C2065: “MCG_C1_IREFSTEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(610): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(615): error C2065: “MCG_C5_PLLCLKEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(615): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(622): error C2065: “MCG_C5_PLLSTEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(622): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(692): error C2065: “SIM_BASE”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(703): error C2065: “SIM_BASE”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): error C2223: “->SOPT1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): error C2065: “SIM_SOPT1_OSC32KSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): warning C4013: “SIM_SOPT1_OSC32KSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): error C2065: “SIM_SOPT2_SDHCSRC_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): warning C4013: “SIM_SOPT2_SDHCSRC”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): error C2065: “SIM_SOPT2_TIMESRC_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): warning C4013: “SIM_SOPT2_TIMESRC”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): error C2065: “SIM_SOPT2_RMIISRC_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): warning C4013: “SIM_SOPT2_RMIISRC”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): error C2065: “SIM_SOPT2_TRACECLKSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): warning C4013: “SIM_SOPT2_TRACECLKSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): error C2065: “SIM_SOPT2_PLLFLLSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): warning C4013: “SIM_SOPT2_PLLFLLSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): error C2065: “SIM_SOPT2_CLKOUTSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): warning C4013: “SIM_SOPT2_CLKOUTSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): error C2065: “SIM_SOPT2_RTCCLKOUTSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): warning C4013: “SIM_SOPT2_RTCCLKOUTSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2146: 语法错误: 缺少“)”(在标识符“src”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2061: 语法错误: 标识符“src”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2059: 语法错误:“;”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2059: 语法错误:“,”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): error C2223: “->CLKDIV1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): warning C4013: “SIM_CLKDIV1_OUTDIV1”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): warning C4013: “SIM_CLKDIV1_OUTDIV2”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): warning C4013: “SIM_CLKDIV1_OUTDIV3”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(820): warning C4013: “SIM_CLKDIV1_OUTDIV4”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(913): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(913): error C2223: “->CLKDIV1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(989): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(989): error C2223: “->C2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(989): error C2065: “MCG_C2_LP_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(993): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(993): error C2223: “->C2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(993): error C2065: “MCG_C2_LP_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): error C2223: “->C1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): error C2065: “MCG_C1_FRDIV_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): warning C4013: “MCG_C1_FRDIV”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2223: “->C5”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2065: “MCG_C5_PLLCLKEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2065: “MCG_C5_PLLSTEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2371: “oscer_config_t”: 重定义；不同的基类型
+  c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(488): note: 参见“oscer_config_t”的声明
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2143: 语法错误: 缺少“;”(在“const”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2371: “uint8_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\stdint.h(21): note: 参见“uint8_t”的声明
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2146: 语法错误: 缺少“;”(在标识符“capLoad”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1214): error C2054: 在“capLoad”之后应输入“(”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2146: 语法错误: 缺少“)”(在标识符“interrupt”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2061: 语法错误: 标识符“interrupt”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2059: 语法错误:“;”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(213): error C2449: 在文件范围内找到“{”(是否缺少函数头?)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(229): error C2059: 语法错误:“}”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(274): warning C4013: “__get_PRIMASK”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(276): warning C4013: “__disable_irq”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(297): warning C4013: “__set_PRIMASK”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2146: 语法错误: 缺少“)”(在标识符“irq”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2061: 语法错误: 标识符“irq”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2059: 语法错误:“;”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2059: 语法错误:“,”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_dmamux.h(73): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_dmamux.h(73): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_dmamux.h(73): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_dmamux.h(82): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_dmamux.h(82): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_dmamux.h(82): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_dmamux.h(82): fatal error C1003: 错误计数超过 100；正在停止编译
+  fsl_edma.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  fsl_uart.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(448): error C2065: “MCG_C2_EREFS0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(448): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(462): error C2065: “MCG_C2_EREFS0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(463): error C2065: “MCG_C2_HGO0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(463): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(470): error C2065: “OSC_CR_SC2P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(470): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(471): error C2065: “OSC_CR_SC4P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(471): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(472): error C2065: “OSC_CR_SC8P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(472): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(474): error C2065: “OSC_CR_SC16P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(474): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(479): error C2065: “OSC_CR_ERCLKEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(479): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(481): error C2065: “OSC_CR_EREFSTEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(481): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(608): error C2065: “MCG_C1_IRCLKEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(608): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(610): error C2065: “MCG_C1_IREFSTEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(610): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(615): error C2065: “MCG_C5_PLLCLKEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(615): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(622): error C2065: “MCG_C5_PLLSTEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(622): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(692): error C2065: “SIM_BASE”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(703): error C2065: “SIM_BASE”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): error C2223: “->SOPT1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): error C2065: “SIM_SOPT1_OSC32KSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): warning C4013: “SIM_SOPT1_OSC32KSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): error C2065: “SIM_SOPT2_SDHCSRC_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): warning C4013: “SIM_SOPT2_SDHCSRC”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): error C2065: “SIM_SOPT2_TIMESRC_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): warning C4013: “SIM_SOPT2_TIMESRC”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): error C2065: “SIM_SOPT2_RMIISRC_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): warning C4013: “SIM_SOPT2_RMIISRC”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): error C2065: “SIM_SOPT2_TRACECLKSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): warning C4013: “SIM_SOPT2_TRACECLKSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): error C2065: “SIM_SOPT2_PLLFLLSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): warning C4013: “SIM_SOPT2_PLLFLLSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): error C2065: “SIM_SOPT2_CLKOUTSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): warning C4013: “SIM_SOPT2_CLKOUTSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): error C2065: “SIM_SOPT2_RTCCLKOUTSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): warning C4013: “SIM_SOPT2_RTCCLKOUTSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2146: 语法错误: 缺少“)”(在标识符“src”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2061: 语法错误: 标识符“src”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2059: 语法错误:“;”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2059: 语法错误:“,”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): error C2223: “->CLKDIV1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): warning C4013: “SIM_CLKDIV1_OUTDIV1”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): warning C4013: “SIM_CLKDIV1_OUTDIV2”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): warning C4013: “SIM_CLKDIV1_OUTDIV3”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(820): warning C4013: “SIM_CLKDIV1_OUTDIV4”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(913): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(913): error C2223: “->CLKDIV1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(989): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(989): error C2223: “->C2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(989): error C2065: “MCG_C2_LP_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(993): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(993): error C2223: “->C2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(993): error C2065: “MCG_C2_LP_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): error C2223: “->C1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): error C2065: “MCG_C1_FRDIV_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): warning C4013: “MCG_C1_FRDIV”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2223: “->C5”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2065: “MCG_C5_PLLCLKEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2065: “MCG_C5_PLLSTEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2371: “oscer_config_t”: 重定义；不同的基类型
+  c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(488): note: 参见“oscer_config_t”的声明
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2143: 语法错误: 缺少“;”(在“const”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2371: “uint8_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\stdint.h(21): note: 参见“uint8_t”的声明
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2146: 语法错误: 缺少“;”(在标识符“capLoad”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1214): error C2054: 在“capLoad”之后应输入“(”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2146: 语法错误: 缺少“)”(在标识符“interrupt”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2061: 语法错误: 标识符“interrupt”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2059: 语法错误:“;”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(213): error C2449: 在文件范围内找到“{”(是否缺少函数头?)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(229): error C2059: 语法错误:“}”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(274): warning C4013: “__get_PRIMASK”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(276): warning C4013: “__disable_irq”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(297): warning C4013: “__set_PRIMASK”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2146: 语法错误: 缺少“)”(在标识符“irq”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2061: 语法错误: 标识符“irq”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2059: 语法错误:“;”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2059: 语法错误:“,”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_uart.h(96): error C2065: “UART_BDH_RXEDGIE_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_uart.h(96): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_uart.h(97): error C2065: “UART_C2_TIE_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_uart.h(97): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_uart.h(98): error C2065: “UART_C2_TCIE_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_uart.h(98): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_uart.h(98): fatal error C1003: 错误计数超过 100；正在停止编译
+  fsl_uart_edma.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(448): error C2065: “MCG_C2_EREFS0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(448): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(462): error C2065: “MCG_C2_EREFS0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(463): error C2065: “MCG_C2_HGO0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(463): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(470): error C2065: “OSC_CR_SC2P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(470): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(471): error C2065: “OSC_CR_SC4P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(471): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(472): error C2065: “OSC_CR_SC8P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(472): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(474): error C2065: “OSC_CR_SC16P_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(474): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(479): error C2065: “OSC_CR_ERCLKEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(479): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(481): error C2065: “OSC_CR_EREFSTEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(481): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(608): error C2065: “MCG_C1_IRCLKEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(608): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(610): error C2065: “MCG_C1_IREFSTEN_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(610): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(615): error C2065: “MCG_C5_PLLCLKEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(615): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(622): error C2065: “MCG_C5_PLLSTEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(622): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(692): error C2065: “SIM_BASE”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(703): error C2065: “SIM_BASE”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): error C2223: “->SOPT1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): error C2065: “SIM_SOPT1_OSC32KSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(714): warning C4013: “SIM_SOPT1_OSC32KSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): error C2065: “SIM_SOPT2_SDHCSRC_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(724): warning C4013: “SIM_SOPT2_SDHCSRC”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): error C2065: “SIM_SOPT2_TIMESRC_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(734): warning C4013: “SIM_SOPT2_TIMESRC”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): error C2065: “SIM_SOPT2_RMIISRC_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(744): warning C4013: “SIM_SOPT2_RMIISRC”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): error C2065: “SIM_SOPT2_TRACECLKSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(754): warning C4013: “SIM_SOPT2_TRACECLKSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): error C2065: “SIM_SOPT2_PLLFLLSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(764): warning C4013: “SIM_SOPT2_PLLFLLSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): error C2065: “SIM_SOPT2_CLKOUTSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(773): warning C4013: “SIM_SOPT2_CLKOUTSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): error C2223: “->SOPT2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): error C2065: “SIM_SOPT2_RTCCLKOUTSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(783): warning C4013: “SIM_SOPT2_RTCCLKOUTSEL”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2146: 语法错误: 缺少“)”(在标识符“src”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2061: 语法错误: 标识符“src”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2059: 语法错误:“;”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2059: 语法错误:“,”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(793): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): error C2223: “->CLKDIV1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): warning C4013: “SIM_CLKDIV1_OUTDIV1”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): warning C4013: “SIM_CLKDIV1_OUTDIV2”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(819): warning C4013: “SIM_CLKDIV1_OUTDIV3”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(820): warning C4013: “SIM_CLKDIV1_OUTDIV4”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(913): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(913): error C2223: “->CLKDIV1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(989): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(989): error C2223: “->C2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(989): error C2065: “MCG_C2_LP_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(993): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(993): error C2223: “->C2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(993): error C2065: “MCG_C2_LP_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): error C2223: “->C1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): error C2065: “MCG_C1_FRDIV_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1038): warning C4013: “MCG_C1_FRDIV”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2223: “->C5”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2065: “MCG_C5_PLLCLKEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1062): error C2065: “MCG_C5_PLLSTEN0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2371: “oscer_config_t”: 重定义；不同的基类型
+  c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(488): note: 参见“oscer_config_t”的声明
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2143: 语法错误: 缺少“;”(在“const”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1187): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2371: “uint8_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\stdint.h(21): note: 参见“uint8_t”的声明
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2146: 语法错误: 缺少“;”(在标识符“capLoad”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1213): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_clock.h(1214): error C2054: 在“capLoad”之后应输入“(”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2146: 语法错误: 缺少“)”(在标识符“interrupt”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2061: 语法错误: 标识符“interrupt”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2059: 语法错误:“;”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(212): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(213): error C2449: 在文件范围内找到“{”(是否缺少函数头?)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(229): error C2059: 语法错误:“}”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(274): warning C4013: “__get_PRIMASK”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(276): warning C4013: “__disable_irq”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(297): warning C4013: “__set_PRIMASK”未定义；假设外部返回 int
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2146: 语法错误: 缺少“)”(在标识符“irq”的前面)
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2061: 语法错误: 标识符“irq”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2059: 语法错误:“;”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2059: 语法错误:“,”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_common.h(308): error C2059: 语法错误:“)”
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_uart.h(96): error C2065: “UART_BDH_RXEDGIE_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_uart.h(96): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_uart.h(97): error C2065: “UART_C2_TIE_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_uart.h(97): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_uart.h(98): error C2065: “UART_C2_TCIE_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_uart.h(98): error C2057: 应输入常量表达式
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\fsl\fsl_uart.h(98): fatal error C1003: 错误计数超过 100；正在停止编译
+  start.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  system_MK60D10.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(111): error C2065: “DEFAULT_SYSTEM_CLOCK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(111): error C2099: 初始值设定项不是常量
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(145): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(145): error C2223: “->C1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(145): error C2065: “MCG_C1_CLKS_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(147): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(147): error C2223: “->C6”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(147): error C2065: “MCG_C6_PLLS_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(149): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(149): error C2223: “->C1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(149): error C2065: “MCG_C1_IREFS_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(151): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(151): error C2223: “->C7”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(151): error C2065: “MCG_C7_OSCSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(152): error C2065: “CPU_XTAL_CLK_HZ”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(154): error C2065: “CPU_XTAL32k_CLK_HZ”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(156): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(156): error C2223: “->C2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(156): error C2065: “MCG_C2_RANGE0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(156): error C2223: “->C7”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(156): error C2065: “MCG_C7_OSCSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(157): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(157): error C2223: “->C1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(157): error C2065: “MCG_C1_FRDIV_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(165): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(165): error C2223: “->C1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(165): error C2065: “MCG_C1_FRDIV_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(165): error C2065: “MCG_C1_FRDIV_SHIFT”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(169): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(169): error C2223: “->C1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(169): error C2065: “MCG_C1_FRDIV_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(169): error C2065: “MCG_C1_FRDIV_SHIFT”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(173): error C2065: “CPU_INT_SLOW_CLK_HZ”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(176): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(176): error C2223: “->C4”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(176): error C2065: “MCG_C4_DMX32_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(176): error C2065: “MCG_C4_DRST_DRS_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(206): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(206): error C2223: “->C5”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(206): error C2065: “MCG_C5_PRDIV0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(207): error C2065: “CPU_XTAL_CLK_HZ”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(208): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(208): error C2223: “->C6”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(208): error C2065: “MCG_C6_VDIV0_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(211): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(211): error C2223: “->C1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(211): error C2065: “MCG_C1_CLKS_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(213): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(213): error C2223: “->C2”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(213): error C2065: “MCG_C2_IRCS_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(214): error C2065: “CPU_INT_SLOW_CLK_HZ”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(216): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(216): error C2223: “->SC”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(216): error C2065: “MCG_SC_FCRDIV_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(216): error C2065: “MCG_SC_FCRDIV_SHIFT”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(217): error C2065: “CPU_INT_FAST_CLK_HZ”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(219): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(219): error C2223: “->C1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(219): error C2065: “MCG_C1_CLKS_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(221): error C2065: “MCG”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(221): error C2223: “->C7”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(221): error C2065: “MCG_C7_OSCSEL_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(222): error C2065: “CPU_XTAL_CLK_HZ”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(224): error C2065: “CPU_XTAL32k_CLK_HZ”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(230): error C2065: “SIM”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(230): error C2223: “->CLKDIV1”的左侧必须指向结构/联合
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(230): error C2065: “SIM_CLKDIV1_OUTDIV1_MASK”: 未声明的标识符
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\startup\system_mk60d10.c(230): error C2065: “SIM_CLKDIV1_OUTDIV1_SHIFT”: 未声明的标识符
+  ANO_DT.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  ICM20602_SOFTSPI.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\user\icm20602_softspi.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  IRQ_Handler.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_12864.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_9AX.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_ADC.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_CAMERA.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_CCD.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_FLASH.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_ICM20602.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_KEY.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  正在生成代码...
+  正在编译...
+  LQ_LED.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_LPTMR.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_MOTOR.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_MPU6050.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_MT9V034.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_OV7725.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_PIT.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_SD5.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_SGP18T.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_SYSTICK.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_UART.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_Ultrasonic.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_VL53.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  LQ_WDOG.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  main.c
+c:\users\administrator\desktop\36.龙邱k60 母板综合测试例程\src\project_setting\libs\mk60n512vmd100.h(427): fatal error C1189: #error:  Not supported compiler type
+  正在生成代码...
