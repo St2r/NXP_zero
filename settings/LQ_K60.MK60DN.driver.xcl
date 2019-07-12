@@ -6,7 +6,7 @@
 
 "-p" 
 
-"D:\IAR8.3\arm\CONFIG\debugger\NXP\MK60DN512xxx10.ddf" 
+"D:\IAR Systems\Embedded Workbench 8.1\arm\CONFIG\debugger\NXP\MK60DN512xxx10.ddf" 
 
 "--drv_verify_download" 
 

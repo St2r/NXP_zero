@@ -214,3 +214,51 @@ void Test_Enc(void)
 
 }
 #endif
+
+/*
+** ===================================================================
+** 电机pid调速
+
+** ===================================================================
+*/
+float PID_motor(float speed){
+  
+    float SetSpeed;            //定义设定值
+    float ActualSpeed;        //定义实际值
+    float err;                //定义偏差值
+    float err_last;            //定义上一个偏差值
+    float Kp,Ki,Kd;            //定义比例、积分、微分系数
+    float voltage;          //定义电压值（控制执行器的变量）
+    float integral;            //定义积分值
+    
+    SetSpeed=0.0;
+    ActualSpeed=0.0;
+    err=0.0;
+    err_last=0.0;
+    voltage=0.0;
+    integral=0.0;
+    Kp=0.2;
+    Ki=0.015;
+    Kd=0.2;
+    
+    SetSpeed=speed;
+    err=SetSpeed-ActualSpeed;
+    integral+=err;
+    voltage=Kp*err+Ki*integral+Kd*(err-err_last);
+    err_last=err;
+    ActualSpeed=voltage*1.0;
+    
+    if(ActualSpeed < speed_min )
+    {
+     ActualSpeed = speed_min ;
+    }
+    else if(ActualSpeed > speed_max)
+    {
+      ActualSpeed = speed_max ;
+           
+    }
+    if(ActualSpeed<=0)ActualSpeed=0;
+      
+      return ActualSpeed;
+}
+

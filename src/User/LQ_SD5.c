@@ -35,31 +35,39 @@ void Test_SD5(void)
     printf("按下K1按键舵机向左 \n");
     printf("按下K2按键舵机向右 \n");
     
-    uint16_t duty = 75;
+    uint16_t duty = 750;
     while(1)
     {
         switch(KEY_Read(1))     
         {
           case 1:
+            OLED_CLS();
+            OLED_P6x8Str(10,0,"LQ_Servo_Test");
+            OLED_P6x8Str(10,1,"KEY0 Pressed");
             LED_Reverse(1); 
-            duty = 75;
-            CMT_PwmDuty(duty);     //50Hz 一个周期20ms  1.5 / 20 * CMT_PRECISON  = 75
+            duty = 550;
+            CMT_PwmDuty(duty);     //50Hz 一个周期20ms  1.5 / 20 * CMT_PRECISON  = 75  //CMT_PRECISON已设置为10000
             break;           
           case 2: 
+            OLED_CLS();
+            OLED_P6x8Str(10,0,"LQ_Servo_Test");
+            OLED_P6x8Str(10,2,"KEY1 Pressed");
             LED_Reverse(2); 
-            duty ++;
-            if(duty > 85)        //根据自己的实际情况对舵机打角进行限制，防止卡死
+            duty +=50;
+            if(duty > 1100)        //根据自己的实际情况对舵机打角进行限制，防止卡死
             {
-                duty = 85;
-            }
-            CMT_PwmDuty(duty);
+              duty = 1100;}
+           CMT_PwmDuty(duty);
             break;
           case 3: 
+            OLED_CLS();
+            OLED_P6x8Str(10,0,"LQ_Servo_Test");
+            OLED_P6x8Str(10,3,"KEY2 Pressed");
             LED_Reverse(3); 
-            duty --;
-            if(duty < 65)        //根据自己的实际情况对舵机打角进行限制，防止卡死
+            duty -=50;
+            if(duty < 225)        //根据自己的实际情况对舵机打角进行限制，防止卡死
             {
-                duty = 65;
+                duty = 225;
             }
             CMT_PwmDuty(duty);
             break;
@@ -75,6 +83,38 @@ void Test_SD5(void)
 void SD5_Init(void)
 {
 	CMT_PwmInit(50, 0);
-	CMT_PwmDuty(SD5_middle);
+	CMT_PwmDuty(dutyMIDDLE);
 	return;
 }
+
+
+/*
+** ===================================================================
+** 舵机pd转向
+
+** ===================================================================
+*/
+int PID_SD5(int distance){
+  
+    int turn_pwm_duty;      //定义实际值
+    float err;              //定义偏差值
+    static float err_pre = 0.0;          //定义上一个偏差值
+    float turnKp,turnKd;    //定义比例、微分系数
+    
+    turnKp=70;
+    turnKd=0.2;
+    err=distance;
+    //err_pre=0.0;
+
+    
+    turn_pwm_duty=(int)(turnKp*err+turnKd*(err-err_pre)); 
+    
+    err_pre = err ;
+    turn_pwm_duty = dutyMIDDLE - turn_pwm_duty;
+    
+    if(turn_pwm_duty < dutyMIN ){turn_pwm_duty = dutyMIN; }
+    
+    else if(turn_pwm_duty > dutyMAX){turn_pwm_duty = dutyMAX;} 
+    return turn_pwm_duty;
+}
+

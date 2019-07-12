@@ -3,10 +3,13 @@
 
 /*µ÷ÊÔ¿ª¹Ø*/
 #define DebugImage 0
-#define DebugEnc 0
+#define DebugEnc 1
 #define DebugCamera 0
 #define DebugSD5 0
-#define DebugRoad 1
+#define DebugRoad 0
+#define DebugDistance 1
+#define DebugObject 0
+#define DebugSD5 1
 
 
 

@@ -92,17 +92,26 @@ Echo           E10
 volatile uint8_t ImageCatchedFlag = 0;
 volatile uint8_t DataProcessedFlag = 0;
 volatile uint8_t RunningFlag = 1;
+uint8_t ObjectCatched = 1;
+
 
 
 /*状态参数*/
-volatile uint8_t MotorSpeedLeft = 0;
-volatile uint8_t MotorSpeedRight = 0;
+volatile int16_t MotorSpeedLeft = 0;
+volatile int16_t MotorSpeedRight = 0;
 volatile uint8_t SD5Duty = 0;
 volatile uint8_t MotorDutyLeft = 0;
 volatile uint8_t MotorDutyRight = 0;
+uint8_t LineLimit = 30;
+uint8_t RoadMiddle = 47;
+volatile uint8_t Object = 0;
+int turn_pwm_duty = 0;
 
 extern uint8_t LineLeft[LCDH];
 extern uint8_t LineRight[LCDH];
+extern uint8_t LineMiddle[LCDH];
+
+int Distance;
 
 /*环境参数*/
 volatile uint8_t BlackMiddle = 0;
@@ -146,24 +155,40 @@ void main(void)
 	while (RunningFlag)
 	{
 		LED_Reverse(1);
-
+              //OLED_CLS();
 		/*图像采集完成*/
 		if (Field_Over_Flag)       //完成一场图像采集
 		{
-
+			Object = 0;
 			Get_Use_Image();      //从采集图像数据中取出自己想要使用的大小 图像大小为60行 94列
 			Get_01_Value(1);      //二值化图像数据
 			if(DebugCamera)
 				Draw_Road();          //龙邱OLED模块显示动态图像
 			
-			for (uint8_t temp = 0; temp < 60; temp++)
+			for (uint8_t temp = 0; temp < LineLimit; temp++)
 			{
-				Camera_Black(&Pixle[temp][0], &Road[temp][0],&LineLeft[temp],&LineRight[temp]);
+				Camera_Black(&Pixle[temp][0], &Road[temp][0],&LineLeft[temp],&LineRight[temp],&LineMiddle[temp]);
 			}
+			Distance = DeltaDistance(LineMiddle, &LineLimit, &RoadMiddle);
 
+			for (uint8_t temp = 3; temp < 15; temp++)
+			{
+				if (LineRight[temp] - LineLeft[temp] < 10)
+					Object += 1;
+			}
+			if (Object >= 9)
+				ObjectCatched = 1;
+			else
+				ObjectCatched = 0;
+
+			if (DebugDistance)
+			{
+				sprintf(txt, "%03d", Distance); 
+				OLED_P6x8Str(0, 0, (u8*)txt);
+			}
 			if (DebugRoad)
 				Draw_Road_alt();
-			Field_Over_Flag = 0;		//禁用图像采集
+			//Field_Over_Flag = 0;		//禁用图像采集
 			ImageCatchedFlag = 1;
 		}
 
@@ -172,7 +197,7 @@ void main(void)
 		{
 			/*从编码器获得当前速度*/
 			MotorSpeedLeft = FTM_ABGet(FTM1);//todo:: 左右调整
-			MotorSpeedRight = FTM_ABGet(FTM2);
+			MotorSpeedRight = -FTM_ABGet(FTM2);
 
 			if(DebugEnc)
 			{
@@ -185,14 +210,6 @@ void main(void)
 				OLED_P8x16Str(20, 4, (uint8_t*)txt);
 			}
 
-
-			/*if (ALineOverCout < LinADCout) {
-				Camera_
-				(&ADdata[ALineOverCout][0], &Rightblackedge[ALineOverCout],
-					&Leftblackedge[ALineOverCout], &CameraStation[ALineOverCout]);
-				ALineOverCout++;*/
-
-
 			//todo::二值图像获取黑线位置
 			//todo::根据黑线设置舵机duty
 			//todo::设置电机duty
@@ -202,7 +219,12 @@ void main(void)
 		/*控制电机和舵机*/
 		if (DataProcessedFlag)
 		{
-			CMT_PwmDuty(SD5Duty);//设置舵机转角
+			turn_pwm_duty = PID_SD5(Distance);
+			CMT_PwmDuty(turn_pwm_duty);//设置舵机转角
+            if(DebugSD5){
+				sprintf(txt, "%04d", turn_pwm_duty);
+				OLED_P6x8Str(50, 0, (u8*)txt);
+            }
 
 			MOTOR_Ctrl(MotorLeft, MotorDutyLeft);     //设置电机1的转速
 			MOTOR_Ctrl(MotorRight, MotorDutyRight);     //设置电机2的转速
@@ -210,9 +232,30 @@ void main(void)
 			DataProcessedFlag = 0;
 			Field_Over_Flag = 0;//申请图像采集
 		}
+		
+		if (ObjectCatched)//todo::消抖
+		{
+			if(DebugObject)
+			{
+				sprintf(txt, "%03d", Object);
+				OLED_P6x8Str(0, 0, (u8*)txt);
+                LED_ON(0);
+			}
+		}
+		else
+		{
+			if (DebugObject)
+			{
+				sprintf(txt, "%03d", Object);
+				OLED_P6x8Str(0, 0, (u8*)txt);
+				LED_OFF(0);
+			}//ObjectCatched = 0;
+		}
+		
 		//todo::红外避障？
 		//todo::六路电磁传感器停车
 	}
+       
 }
 
 

@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "D:\IAR8.3\common\bin\cspybat" -f "C:\Users\Administrator\Documents\GitHub\NXP_zero\settings\LQ_K60.MK60DN.general.xcl" --backend -f "C:\Users\Administrator\Documents\GitHub\NXP_zero\settings\LQ_K60.MK60DN.driver.xcl" 
+& "D:\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "C:\Users\12444\Desktop\gai\NXP_zero\settings\LQ_K60.MK60DN.general.xcl" --backend -f "C:\Users\12444\Desktop\gai\NXP_zero\settings\LQ_K60.MK60DN.driver.xcl" 
 }
 else
 {
-& "D:\IAR8.3\common\bin\cspybat" -f "C:\Users\Administrator\Documents\GitHub\NXP_zero\settings\LQ_K60.MK60DN.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\Administrator\Documents\GitHub\NXP_zero\settings\LQ_K60.MK60DN.driver.xcl" 
+& "D:\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "C:\Users\12444\Desktop\gai\NXP_zero\settings\LQ_K60.MK60DN.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\12444\Desktop\gai\NXP_zero\settings\LQ_K60.MK60DN.driver.xcl" 
 }

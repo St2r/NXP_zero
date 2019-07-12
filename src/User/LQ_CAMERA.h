@@ -13,7 +13,8 @@ extern uint8_t Pixle[LCDH][LCDW];               //二值化后用于OLED显示的数据
 extern uint8_t Road[LCDH][LCDW];
 extern volatile uint8_t  Field_Over_Flag;                //场标识
 
-void Camera_Black(uint8_t *point, uint8_t *Road, uint8_t *LineLeft, uint8_t * LineRight);
+void Camera_Black(uint8_t *point, uint8_t *Road, uint8_t *LineLeft, uint8_t * LineRight,uint8_t * LineMiddle);
+int DeltaDistance(uint8_t * LineMiddle, uint8_t * LineLimit, uint8_t * RoadMiddle);
 
 /*---------------------------------------------------------------
 【函    数】CAMERA_Init
@@ -76,7 +77,6 @@ void TFTSPI_Show_Cmera(uint8_t xs,uint8_t ys,uint8_t w,uint8_t h,uint8_t ppic[LC
 【注意事项】
 ----------------------------------------------------------------*/
 void Draw_Road(void);
-
 void Draw_Road_alt(void);
 /*---------------------------------------------------------------
 【函    数】Pixle_Filter

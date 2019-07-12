@@ -10,12 +10,16 @@
 【注意事项】注意，一定要对舵机打角进行限制
 --------------------------------------------------------------------------------------------------------*/
 
-#define SD5_middle 75
-#define SD5_left 60
-#define SD5_right 70
+
+#define dutyMAX 1100    //最大打角
+#define dutyMIN 225
+#define dutyMIDDLE 662  //中心打角
+
 
 void Test_SD5(void);
 
 void SD5_Init(void);
+
+int PID_SD5(int distance);
 
 #endif

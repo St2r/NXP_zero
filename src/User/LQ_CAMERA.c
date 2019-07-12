@@ -18,6 +18,8 @@ uint8_t Pixle[LCDH][LCDW];               //二值化后用于OLED显示的数据
 uint8_t Road[LCDH][LCDW];               //二值化后用于OLED显示的数据
 uint8_t LineLeft[LCDH];
 uint8_t LineRight[LCDH];
+uint8_t LineMiddle[LCDH];
+
 volatile uint8_t  Field_Over_Flag=0;              //场标识
 
 /*---------------------------------------------------------------
@@ -231,7 +233,7 @@ void Get_01_Value(uint8_t mode)
 
 
 //todo::识别黑线
-void Camera_Black(uint8_t *point,uint8_t *Road,uint8_t *LineLeft,uint8_t * LineRight)
+void Camera_Black(uint8_t *point,uint8_t *Road,uint8_t *LineLeft,uint8_t * LineRight,uint8_t *LineMiddle)
 {
 	//60*94
 	int16_t temp0, temp1;
@@ -328,6 +330,9 @@ void Camera_Black(uint8_t *point,uint8_t *Road,uint8_t *LineLeft,uint8_t * LineR
 	}
 	Road[rightedge] = 1;
 	*LineRight = rightedge;
+
+	*LineMiddle = (*LineRight + *LineLeft) / 2;
+	Road[*LineMiddle] = 1;
 	/*右边沿查找结束*/
 
 
@@ -459,7 +464,17 @@ void Camera_Black(uint8_t *point,uint8_t *Road,uint8_t *LineLeft,uint8_t * LineR
 
 }
 
-
+int DeltaDistance(uint8_t * LineMiddle, uint8_t * LineLimit, uint8_t * RoadMiddle)
+{
+	int outcome = 0;
+	uint8_t temp = 1;
+	for (; temp <= 3; temp += 1)
+	{
+		outcome += LineMiddle[(*LineLimit)*temp / 5];
+		outcome -= *RoadMiddle;
+	}
+	return outcome;
+}
 /*---------------------------------------------------------------
 【函    数】TFTSPI_Show_Cmera
 【功    能】在TFT1.8上画出摄像头的图像

@@ -1,16 +1,16 @@
-"D:\IAR8.3\arm\bin\armproc.dll" 
+"D:\IAR Systems\Embedded Workbench 8.1\arm\bin\armproc.dll" 
 
-"D:\IAR8.3\arm\bin\armjlink2.dll" 
+"D:\IAR Systems\Embedded Workbench 8.1\arm\bin\armjlink2.dll" 
 
-"C:\Users\Administrator\Documents\GitHub\NXP_zero\MK60DN\Exe\c.out" 
+"C:\Users\12444\Desktop\gai\NXP_zero\MK60DN\Exe\c.out" 
 
---plugin="D:\IAR8.3\arm\bin\armbat.dll" 
+--plugin="D:\IAR Systems\Embedded Workbench 8.1\arm\bin\armbat.dll" 
 
---device_macro="D:\IAR8.3\arm\config\debugger\NXP\Kxx.dmac" 
+--device_macro="D:\IAR Systems\Embedded Workbench 8.1\arm\config\debugger\NXP\Kxx.dmac" 
 
---device_macro="D:\IAR8.3\arm\config\debugger\NXP\Kxx_Trace.dmac" 
+--device_macro="D:\IAR Systems\Embedded Workbench 8.1\arm\config\debugger\NXP\Kxx_Trace.dmac" 
 
---flash_loader="D:\IAR8.3\arm\config\flashloader\NXP\FlashK60Dxxx128K.board" 
+--flash_loader="D:\IAR Systems\Embedded Workbench 8.1\arm\config\flashloader\NXP\FlashK60Dxxx128K.board" 
 
 
 
